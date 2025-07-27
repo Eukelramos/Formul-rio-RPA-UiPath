@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ssUGb2XDaUWVAZbfEXeAWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="7a1d1038-1522-412a-8120-be26c1153a43" CvElementArea="290, 475, 344, 79" CvType="InputBox" DesignTimeRectangle="294, 478, 338, 74" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='datepicker' tag='INPUT' /&gt;" Guid="b948ced5-9826-4d34-be20-48aa06af8c40" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html#google_vignette' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7a1d1038-1522-412a-8120-be26c1153a43" CvElementArea="290, 475, 344, 79" CvTextArea="222, 506, 64, 19" CvTextArgument="Date:" CvType="InputBox" DesignTimeRectangle="224, 478, 1600, 74" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aaname='Date: ' parentid='post-body-3077692503353518311' tag='DIV' /&gt;" Guid="6e303cce-9539-4e7d-b7f6-d21c0188f3b0" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="90664525829294c40222ea550a0faf50.png" xmlns="">0KKrX6ZlD-UirhDrJ6qoI2Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

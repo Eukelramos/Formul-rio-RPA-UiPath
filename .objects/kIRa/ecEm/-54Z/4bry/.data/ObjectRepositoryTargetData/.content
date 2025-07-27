@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hMt1_cjEz0u6VZBO31a-zA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="0dd44834-ce02-42f5-8b84-4daf9c4aff54" CvElementArea="312, 644, 26, 26" CvType="RadioButton" DesignTimeRectangle="316, 647, 20, 19" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl id='sex-0' tag='INPUT' type='radio' class='' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6c554790-5851-40f1-8bd2-c7ad41935762" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html#google_vignette' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0dd44834-ce02-42f5-8b84-4daf9c4aff54" CvTextArea="221, 647, 90, 21" CvTextArgument="Gender" CvType="Text" DesignTimeRectangle="224, 645, 85, 25" FuzzySelectorArgument="&lt;webctrl isleaf='1' tag='B' type='' class='' aaname='Gender' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Gender' /&gt;" Guid="017c2c2f-16f7-482b-87a6-7cdee351a53b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8185669181cadc16ce8232840a104054.png" xmlns="">0h_e5B-nXNE62dyj8z4Tjcg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

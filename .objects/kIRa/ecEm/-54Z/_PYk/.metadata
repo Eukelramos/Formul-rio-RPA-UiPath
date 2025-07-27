@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Profession  Manual Test…",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "_PYk9hcDfUqdjAdh92h8mA",
+  "Reference": "3FTlyqhNmku6lGTP18fi3w/_PYk9hcDfUqdjAdh92h8mA",
+  "ParentRef": "3FTlyqhNmku6lGTP18fi3w/-54ZIYyOA0aKyuLIuYAGXQ",
+  "Created": "2025-07-27T11:27:28.3617884Z",
+  "Updated": "2025-07-27T11:27:28.3617884Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

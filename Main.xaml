@@ -1,0 +1,285 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="668.6666666666666,2345.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="explorer.exe(1)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,2322.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="ba5ec037-7687-466f-b7ea-3eeaaba4ee15" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="450,2080.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Primeiro nome'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="ba5ec037-7687-466f-b7ea-3eeaaba4ee15" Text="Kelvin" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="2536aa1f-28d8-4786-bd1b-7e596920dfd1" ContentHash="VmK2ryOezUGvmblneJqIwA" CvElementArea="359, 388, 346, 78" CvType="InputBox" DesignTimeRectangle="364, 390, 338, 74" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="67bfa70b-ac26-4b4b-864c-e7dc663567ea" InformativeScreenshot="62c39be6453228636230a636f7b1cfb0.png" IsResponsive="True" Reference="3FTlyqhNmku6lGTP18fi3w/i3ozVkJTUUmn-hNSxn9l6Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="2536aa1f-28d8-4786-bd1b-7e596920dfd1" CvTextArea="224, 417, 133, 21" CvTextArgument="First name:" CvType="Text" DesignTimeRectangle="224, 415, 133, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='First name:' parentid='post-body-3077692503353518311' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='First name:' /&gt;" Guid="79640a71-4fc4-431d-9e9d-ce91321e7d2b" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Sobrenome'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="DebuggerApi" ScopeIdentifier="ba5ec037-7687-466f-b7ea-3eeaaba4ee15" Text="Ramos" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="9e25d9a0-bb70-488f-bcda-f1daa5732a6f" ContentHash="5Mrg7fze806QGPb8DUkHGw" CvElementArea="356, 498, 345, 78" CvType="InputBox" DesignTimeRectangle="360, 500, 338, 74" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='lastname' tag='INPUT' type='text' class='' aaname='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b9bdaee9-730c-49c9-960f-db4d1c8b94f1" InformativeScreenshot="e02287f160d3f8321527f3d9654a5722.png" IsResponsive="True" Reference="3FTlyqhNmku6lGTP18fi3w/tFp0NQDuLU20jmVrch9I9w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="9e25d9a0-bb70-488f-bcda-f1daa5732a6f" CvTextArea="222, 528, 129, 19" CvTextArgument="Last name:" CvType="Text" DesignTimeRectangle="224, 525, 129, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Last name:' parentid='post-body-3077692503353518311' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Last name:' /&gt;" Guid="9b3520a5-6e97-4c58-b2c5-4e34190e1dd9" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Female'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ba5ec037-7687-466f-b7ea-3eeaaba4ee15" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="0dd44834-ce02-42f5-8b84-4daf9c4aff54" ContentHash="hMt1_cjEz0u6VZBO31a-zA" CvElementArea="312, 644, 26, 26" CvType="RadioButton" DesignTimeRectangle="316, 647, 20, 19" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl id='sex-0' tag='INPUT' type='radio' class='' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6c554790-5851-40f1-8bd2-c7ad41935762" InformativeScreenshot="8185669181cadc16ce8232840a104054.png" Reference="3FTlyqhNmku6lGTP18fi3w/4bry51RGl06xuoFCUMrbIA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html#google_vignette' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="0dd44834-ce02-42f5-8b84-4daf9c4aff54" CvTextArea="221, 647, 90, 21" CvTextArgument="Gender" CvType="Text" DesignTimeRectangle="224, 645, 85, 25" FuzzySelectorArgument="&lt;webctrl isleaf='1' tag='B' type='' class='' aaname='Gender' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Gender' /&gt;" Guid="017c2c2f-16f7-482b-87a6-7cdee351a53b" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Years of Experience'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ba5ec037-7687-466f-b7ea-3eeaaba4ee15" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="e40250d5-f5de-4ff0-9919-89ea6894492e" ContentHash="6F7VscgJxEWC3QBMLZo7cg" CvElementArea="647, 696, 24, 24" CvType="RadioButton" DesignTimeRectangle="650, 698, 19, 19" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl id='exp-3' tag='INPUT' /&gt;" Guid="bf68ba62-18ea-408d-9c40-1d927faf40c4" InformativeScreenshot="b0563861e960e741344b4ca50d047d0d.png" Reference="3FTlyqhNmku6lGTP18fi3w/f_R71nWNQ0KELYKGPD4v1g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html#google_vignette' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="e40250d5-f5de-4ff0-9919-89ea6894492e" CvTextArea="221, 698, 234, 25" CvTextArgument="Years of Experience" CvType="Text" DesignTimeRectangle="224, 696, 231, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Years of Experience' parentid='post-body-3077692503353518311' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Years of Experience' /&gt;" Guid="2e1c35ad-bfc5-4e62-a1ad-9d5db85650f3" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'INPUT datepicker'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,292.6666666666667" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="DebuggerApi" ScopeIdentifier="ba5ec037-7687-466f-b7ea-3eeaaba4ee15" Text="27/07/2025" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="7a1d1038-1522-412a-8120-be26c1153a43" ContentHash="ssUGb2XDaUWVAZbfEXeAWw" CvElementArea="290, 475, 344, 79" CvType="InputBox" DesignTimeRectangle="294, 478, 338, 74" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='datepicker' tag='INPUT' /&gt;" Guid="b948ced5-9826-4d34-be20-48aa06af8c40" InformativeScreenshot="90664525829294c40222ea550a0faf50.png" Reference="3FTlyqhNmku6lGTP18fi3w/rJ4sGYcNTU2LTXKnq3Jv5A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html#google_vignette' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="7a1d1038-1522-412a-8120-be26c1153a43" CvElementArea="290, 475, 344, 79" CvTextArea="222, 506, 64, 19" CvTextArgument="Date:" CvType="InputBox" DesignTimeRectangle="224, 478, 1600, 74" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aaname='Date: ' parentid='post-body-3077692503353518311' tag='DIV' /&gt;" Guid="6e303cce-9539-4e7d-b7f6-d21c0188f3b0" SearchSteps="Selector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Profession  Manual Test…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ba5ec037-7687-466f-b7ea-3eeaaba4ee15" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="474a14cc-438a-489b-9197-ea6d45de86eb" ContentHash="aAnq8ZeyqkyvaeheUMMp6A" CvElementArea="350, 351, 24, 24" CvType="CheckBox" DesignTimeRectangle="353, 353, 20, 19" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl id='profession-0' tag='INPUT' /&gt;" Guid="242b077e-0d87-43f9-8a9d-33d28caa8543" InformativeScreenshot="29e884845a5316ce9866fe71a02d6ef7.png" Reference="3FTlyqhNmku6lGTP18fi3w/_PYk9hcDfUqdjAdh92h8mA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html#google_vignette' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="224, 346, 1600, 36" FuzzySelectorArgument="&lt;webctrl class='control-group' type='' parentid='post-body-3077692503353518311' tag='DIV' aaname='  Manual Tester    ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Profession  Manual Tester     Automation Tester' /&gt;" Guid="7ce8f5e0-4336-4d97-a3a2-26741374a8b4" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Automation Tools'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ba5ec037-7687-466f-b7ea-3eeaaba4ee15" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="391200b6-153c-4d01-bbf8-8ec237333de8" ContentHash="k6SJqzmpb0yTGJWwENHaKQ" CvElementArea="433, 423, 23, 23" CvType="CheckBox" DesignTimeRectangle="436, 425, 20, 19" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl id='tool-0' tag='INPUT' /&gt;" Guid="7e857d00-4593-41e5-8b39-8efdd2f0c02c" InformativeScreenshot="6187fae1d4802a1fb310459b16d3327d.png" Reference="3FTlyqhNmku6lGTP18fi3w/DRLi7LwpKU268utAp8-SIA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html#google_vignette' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="391200b6-153c-4d01-bbf8-8ec237333de8" CvTextArea="221, 425, 208, 21" CvTextArgument="Automation Tools" CvType="Text" DesignTimeRectangle="224, 423, 205, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Automation Tools' parentid='post-body-3077692503353518311' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Automation Tools' /&gt;" Guid="63a0714c-1d81-4d3f-a729-3e0ee9b6d1e3" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Button'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,222.66666666666666" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ba5ec037-7687-466f-b7ea-3eeaaba4ee15" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="c19205f3-f473-41ac-a3f4-dd4f94d68d39" ContentHash="hiLPR5FDzEe3gIDelmaMtQ" CvElementArea="221, 620, 90, 44" CvTextArea="227, 632, 78, 19" CvTextArgument="Button" CvType="Button" DesignTimeRectangle="224, 621, 86, 42" ElementType="Button" FullSelectorArgument="&lt;webctrl id='submit' tag='BUTTON' /&gt;" Guid="e26c849c-e1b6-479b-89b7-bd3cac5fe122" InformativeScreenshot="a1bd31c2072f9ea02191f09b7011ae05.png" Reference="3FTlyqhNmku6lGTP18fi3w/6neSmKj0rE-7qGSktfGyKw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html#google_vignette' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="c19205f3-f473-41ac-a3f4-dd4f94d68d39" CvTextArea="222, 525, 168, 23" CvTextArgument="Download File" CvType="Text" DesignTimeRectangle="224, 524, 173, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Download File ' parentid='post-body-3077692503353518311' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Download File' /&gt;" Guid="f4e878a5-aea4-4d0f-8890-70e0c77c4762" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-11, -11, 1942, 1030" BrowserType="Chrome" ContentHash="MAVwzIhMNUOrd-yNtBlj5w" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAEMSURBVDhPnZLLDYMwDIYDSYAtGAOxAAsgDtB5uCHWQGIAEJeyAKtwYQFXNnKapjyqIv0K+PHFD4RSCu4lQUoFWikI9PtECTdYCPGTDgHoKMsSqqqi80iPRwV5nhvIF2DbNrh71nU9B/R9D9M0wTAMsCyLSXrOM4zjSL6u6yjW9/3rGdR1bQBZln34KBnfXYANaprGAIqiIJvWmvye5+0AJLnJUspLAPpNBWgIggDCMKQTAWg7AzDciA1YElLx+6qFA30O5m4GpncWGvj2vwHuILmttm0NAP9CrpKTcWa0Ru7bBcRxDEmSQJqmFIyX2fFRFO1D5PK5HfcmFm+IN0cV2D0xwIZgkr1e/ma9AImqieK0kw3QAAAAAElFTkSuQmCC" sap2010:WorkflowViewState.IdRef="TargetApp_1" InformativeScreenshot="a7da23734b1102e908132165a33c9226.jpg" Reference="3FTlyqhNmku6lGTP18fi3w/-54ZIYyOA0aKyuLIuYAGXQ" Selector="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html' /&gt;" Url="https://www.techlistic.com/p/selenium-practice-form.html" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

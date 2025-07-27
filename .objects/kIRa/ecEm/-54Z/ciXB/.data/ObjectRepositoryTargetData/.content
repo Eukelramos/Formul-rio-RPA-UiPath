@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_eEcPYa62U-sYy3C0X9P4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="90b7b533-0094-4213-9e6b-75e5c9a55a0d" CvElementArea="1794, 13, 31, 31" CvType="MaximizeButton" DesignTimeRectangle="1774, 1, 70, 59" ElementType="Button" FullSelectorArgument="&lt;ctrl name='techlistic.com/p/selenium-practice-form.html - Google Chrome' role='pane' /&gt;&lt;ctrl name='Maximizar' role='push button' /&gt;" Guid="09d559ca-a6d0-4b29-b5a1-e454d0d1afcd" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='techlistic.com/p/selenium-practice-form.html - Google Chrome' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="90b7b533-0094-4213-9e6b-75e5c9a55a0d" CvElementArea="1724, 14, 33, 28" CvType="MinimizeButton" DesignTimeRectangle="1707, 1, 68, 59" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='techlistic.com/p/selenium-practice-form.html - Google Chrome' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Minimizar' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Minimizar' /&gt;" Guid="1bb5937f-e70d-46d7-829d-d2aa36673e6e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1a57b13f60c36eec64e575fd391ae63f.png" xmlns="">0pQPMhcwyt0aV8FYSqQpuEA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

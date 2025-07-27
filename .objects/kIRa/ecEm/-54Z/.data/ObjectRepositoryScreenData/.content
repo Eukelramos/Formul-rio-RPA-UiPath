@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="MAVwzIhMNUOrd-yNtBlj5w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-11, -11, 1942, 1030" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAEMSURBVDhPnZLLDYMwDIYDSYAtGAOxAAsgDtB5uCHWQGIAEJeyAKtwYQFXNnKapjyqIv0K+PHFD4RSCu4lQUoFWikI9PtECTdYCPGTDgHoKMsSqqqi80iPRwV5nhvIF2DbNrh71nU9B/R9D9M0wTAMsCyLSXrOM4zjSL6u6yjW9/3rGdR1bQBZln34KBnfXYANaprGAIqiIJvWmvye5+0AJLnJUspLAPpNBWgIggDCMKQTAWg7AzDciA1YElLx+6qFA30O5m4GpncWGvj2vwHuILmttm0NAP9CrpKTcWa0Ru7bBcRxDEmSQJqmFIyX2fFRFO1D5PK5HfcmFm+IN0cV2D0xwIZgkr1e/ma9AImqieK0kw3QAAAAAElFTkSuQmCC" Selector="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html' /&gt;" Url="https://www.techlistic.com/p/selenium-practice-form.html" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="a7da23734b1102e908132165a33c9226.jpg" xmlns="">0ytqIUdPfpEGyQBzLBncD6Q</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

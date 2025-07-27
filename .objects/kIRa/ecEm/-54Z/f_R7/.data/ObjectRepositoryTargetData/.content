@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6F7VscgJxEWC3QBMLZo7cg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="e40250d5-f5de-4ff0-9919-89ea6894492e" CvElementArea="647, 696, 24, 24" CvType="RadioButton" DesignTimeRectangle="650, 698, 19, 19" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl id='exp-3' tag='INPUT' /&gt;" Guid="bf68ba62-18ea-408d-9c40-1d927faf40c4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html#google_vignette' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e40250d5-f5de-4ff0-9919-89ea6894492e" CvTextArea="221, 698, 234, 25" CvTextArgument="Years of Experience" CvType="Text" DesignTimeRectangle="224, 696, 231, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Years of Experience' parentid='post-body-3077692503353518311' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Years of Experience' /&gt;" Guid="2e1c35ad-bfc5-4e62-a1ad-9d5db85650f3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b0563861e960e741344b4ca50d047d0d.png" xmlns="">0U74a72whh0mSejeLMstj3Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

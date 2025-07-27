@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aAnq8ZeyqkyvaeheUMMp6A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="474a14cc-438a-489b-9197-ea6d45de86eb" CvElementArea="350, 351, 24, 24" CvType="CheckBox" DesignTimeRectangle="353, 353, 20, 19" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl id='profession-0' tag='INPUT' /&gt;" Guid="242b077e-0d87-43f9-8a9d-33d28caa8543" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html#google_vignette' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="224, 346, 1600, 36" FuzzySelectorArgument="&lt;webctrl class='control-group' type='' parentid='post-body-3077692503353518311' tag='DIV' aaname='  Manual Tester    ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Profession  Manual Tester     Automation Tester' /&gt;" Guid="7ce8f5e0-4336-4d97-a3a2-26741374a8b4" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="29e884845a5316ce9866fe71a02d6ef7.png" xmlns="">0wKbja4TfuEyqEChLJogeQQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

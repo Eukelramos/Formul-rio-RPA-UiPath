@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Sobrenome",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "tFp0NQDuLU20jmVrch9I9w",
+  "Reference": "3FTlyqhNmku6lGTP18fi3w/tFp0NQDuLU20jmVrch9I9w",
+  "ParentRef": "3FTlyqhNmku6lGTP18fi3w/-54ZIYyOA0aKyuLIuYAGXQ",
+  "Created": "2025-07-18T13:23:31.5078492Z",
+  "Updated": "2025-07-18T13:23:31.5078492Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.11.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

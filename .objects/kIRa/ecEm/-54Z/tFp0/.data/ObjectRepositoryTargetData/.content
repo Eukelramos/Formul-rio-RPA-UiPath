@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5Mrg7fze806QGPb8DUkHGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="9e25d9a0-bb70-488f-bcda-f1daa5732a6f" CvElementArea="356, 498, 345, 78" CvType="InputBox" DesignTimeRectangle="360, 500, 338, 74" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl name='lastname' tag='INPUT' type='text' class='' aaname='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b9bdaee9-730c-49c9-960f-db4d1c8b94f1" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9e25d9a0-bb70-488f-bcda-f1daa5732a6f" CvTextArea="222, 528, 129, 19" CvTextArgument="Last name:" CvType="Text" DesignTimeRectangle="224, 525, 129, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Last name:' parentid='post-body-3077692503353518311' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Last name:' /&gt;" Guid="9b3520a5-6e97-4c58-b2c5-4e34190e1dd9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e02287f160d3f8321527f3d9654a5722.png" xmlns="">0V_9AN7ERi0ScnnVor3rQJg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

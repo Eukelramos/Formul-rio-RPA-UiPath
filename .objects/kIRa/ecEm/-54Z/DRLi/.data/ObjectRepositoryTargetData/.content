@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="k6SJqzmpb0yTGJWwENHaKQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="391200b6-153c-4d01-bbf8-8ec237333de8" CvElementArea="433, 423, 23, 23" CvType="CheckBox" DesignTimeRectangle="436, 425, 20, 19" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl id='tool-0' tag='INPUT' /&gt;" Guid="7e857d00-4593-41e5-8b39-8efdd2f0c02c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html#google_vignette' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="391200b6-153c-4d01-bbf8-8ec237333de8" CvTextArea="221, 425, 208, 21" CvTextArgument="Automation Tools" CvType="Text" DesignTimeRectangle="224, 423, 205, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Automation Tools' parentid='post-body-3077692503353518311' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Automation Tools' /&gt;" Guid="63a0714c-1d81-4d3f-a729-3e0ee9b6d1e3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6187fae1d4802a1fb310459b16d3327d.png" xmlns="">0Nb59ngcVSE-MRUeC5uUx1w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

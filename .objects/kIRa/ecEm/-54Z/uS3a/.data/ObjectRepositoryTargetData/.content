@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9NT7q_4sg0mXLVbFkJRpYw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="techlistic.com/p/selenium-practice-form.html" DesignTimeRectangle="2, 39, 204, 36" Guid="80277fc0-4591-4a5f-9921-22b2f0cfcf1a" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAMwAAAAkCAYAAADFNdUdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAFJSURBVHhe7dNBCsJQDIRhr+EJva/nKShdCI8hSd9QW5ryB76FmbyunMeyLB8Acx7P1/sDYA6FAQwUBjBQGMBAYQADhQEMFAYwUBjAQGEAA4UBDBQGMFAYwHB4YWZH3wFXRGEAw2mF0T3QEYUBDJcsTPUmy3Q/Tnab5XrnvIlu19Eb9HS7wkQzc7OO88119t6jn9MKszXRG/1WlY2jmd64e8229rPfQT+3K4zu9+TRLsv0t9rK0cNphdF9pXqTZdl+Tx7tsmx29DvohcIUebTLstnR76AXClPk0S7L9DfuicIUebTLMv2Ne7p0YfRdth8z3c/c/HsfZb9cd+jltMJsjfsuu9d9dJPN0ffr6Bv0ctnCRG/HXXar+4iO5tndOHo7807v0M/hhemMPzoUhSlQGCgKU6AwUBSmQGGgKAxgoDCAgcIABgoDGL6jRgRWqrbYtwAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' idx='*' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="0, 1, 210, 262" FuzzySelectorArgument="&lt;wnd cls='Chrome_RenderWidgetHostHWND' title='Chrome Legacy Window' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Chrome Legacy Window' /&gt;" Guid="e7b7591f-7378-4f0f-afb7-e8a1717be4c5" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8495a6f29eaf718b8c8584624b49f203.png" xmlns="">0MXUllnhSk0273hK3h5GZew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

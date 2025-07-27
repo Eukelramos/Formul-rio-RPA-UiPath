@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hiLPR5FDzEe3gIDelmaMtQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="techlistic.com/p/selenium-practice-form.html" CVScreenId="c19205f3-f473-41ac-a3f4-dd4f94d68d39" CvElementArea="221, 620, 90, 44" CvTextArea="227, 632, 78, 19" CvTextArgument="Button" CvType="Button" DesignTimeRectangle="224, 621, 86, 42" ElementType="Button" FullSelectorArgument="&lt;webctrl id='submit' tag='BUTTON' /&gt;" Guid="e26c849c-e1b6-479b-89b7-bd3cac5fe122" ScopeSelectorArgument="&lt;html app='chrome.exe' title='techlistic.com/p/selenium-practice-form.html#google_vignette' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c19205f3-f473-41ac-a3f4-dd4f94d68d39" CvTextArea="222, 525, 168, 23" CvTextArgument="Download File" CvType="Text" DesignTimeRectangle="224, 524, 173, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Download File ' parentid='post-body-3077692503353518311' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Download File' /&gt;" Guid="f4e878a5-aea4-4d0f-8890-70e0c77c4762" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a1bd31c2072f9ea02191f09b7011ae05.png" xmlns="">0i4e1DF_SL0uMKlpCkbTHvA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
